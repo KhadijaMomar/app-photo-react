@@ -30,7 +30,6 @@ export default function CameraScreen() {
       alert("Photo ajoutée à la galerie !");
     }
   };
-
   return (
     <View style={styles.container}>
       <CameraView style={styles.camera} ref={cameraRef}>
